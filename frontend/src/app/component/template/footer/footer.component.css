@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    position: fixed;
+    justify-content: flex-end;
+    bottom: 0%;
+
+    font-weight: 300;
+    font-size: .9rem;
+    
+}
