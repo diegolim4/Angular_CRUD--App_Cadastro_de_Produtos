@@ -11,10 +11,11 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './component/template/footer/footer.component';
 import { NavComponent } from './component/template/nav/nav.component'
 
-
+import { AppRoutingModule} from './app-routing.module';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from  '@angular/material/sidenav';
-import { HomeComponent } from './views/home/home.component'
+import { HomeComponent } from './views/home/home.component';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component'
 
 
 @NgModule({
@@ -23,13 +24,15 @@ import { HomeComponent } from './views/home/home.component'
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    HomeComponent,    
+    HomeComponent,
+    ProductCrudComponent,    
     
   ],
 
   imports: [
     BrowserModule,    
     BrowserAnimationsModule,
+    AppRoutingModule,
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
