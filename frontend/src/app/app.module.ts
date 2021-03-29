@@ -8,6 +8,8 @@ import { HeaderComponent } from './component/template/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { FooterComponent } from './component/template/footer/footer.component';
 import { NavComponent } from './component/template/nav/nav.component'
 
@@ -15,7 +17,10 @@ import { AppRoutingModule} from './app-routing.module';
 import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from  '@angular/material/sidenav';
 import { HomeComponent } from './views/home/home.component';
-import { ProductCrudComponent } from './views/product-crud/product-crud.component'
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './component/product/product-create/product-create.component';
+
+
 
 
 @NgModule({
@@ -25,7 +30,8 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent,    
+    ProductCrudComponent,
+    ProductCreateComponent,      
     
   ],
 
@@ -36,7 +42,9 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     MatToolbarModule,
     MatListModule,
     MatSidenavModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule
   ],
 
   providers: [],
