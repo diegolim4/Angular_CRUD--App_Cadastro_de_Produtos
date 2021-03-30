@@ -20,6 +20,8 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './component/product/product-create/product-create.component';
 
+import { HttpClientModule} from '@angular/common/http'
+
 
 
 
@@ -44,7 +46,9 @@ import { ProductCreateComponent } from './component/product/product-create/produ
     MatSidenavModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
+
   ],
 
   providers: [],
