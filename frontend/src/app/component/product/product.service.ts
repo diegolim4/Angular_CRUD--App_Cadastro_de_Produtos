@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import {MatSnackBar} from '@angular/material/snack-bar';
+import  {MatSnackBar } from '@angular/material/snack-bar';
 import { Observable } from 'rxjs';
 import { Product } from './product.model';
 
@@ -21,9 +21,13 @@ export class ProductService {
     })
   }
   
-  create(product: Product): Observable<Product>{ //mandando a requisiçaõ http para o back-end
+  create(product: Product): Observable<Product>{ //mandando a requisição http para o back-end
     return this.http.post<Product>(this.urlBackEnd, product)
-
   }
+  read(): Observable<Product[]>{
+    return this.http.get<Product[]>(this.urlBackEnd)
+  }
+
+ 
 
 }

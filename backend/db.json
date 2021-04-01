@@ -1,19 +1,29 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "nome": "Bike",
-            "preço": 599.90
-        },
-        {
-            "id": 2,
-            "nome": "Celular",
-            "preço": 1290.90
-        },
-        {
-            "id": 3,
-            "nome": "Notebook",
-            "preço": 2599.99
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "nome": "Bike",
+      "preco": 599.9
+    },
+    {
+      "id": 2,
+      "nome": "Celular",
+      "preco": 1290.9
+    },
+    {
+      "id": 3,
+      "nome": "Notebook",
+      "preco": 2150.99
+    },
+    {
+      "nome": "Playstation 5",
+      "preco": "5100",
+      "id": 4
+    },
+    {
+      "nome": "Guitarra Less Paul",
+      "preco": "1890",
+      "id": 5
+    }
+  ]
 }
