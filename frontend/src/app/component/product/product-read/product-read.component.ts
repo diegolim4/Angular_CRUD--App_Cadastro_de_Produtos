@@ -11,7 +11,7 @@ export class ProductReadComponent implements OnInit {
 
   products: Product[]
 
-  displayedColumns = ['id', 'nome', 'preco',]
+  displayedColumns = ['id', 'nome', 'preco', 'action']
 
   constructor(private productService: ProductService) {}
 

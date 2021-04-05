@@ -1,3 +1,11 @@
 table{
     width: 100%;
 }
+
+i.btn_edit{
+    color:rgb(197, 194, 11);
+}
+
+i.btn_del{
+    color: rgb(134, 7, 7);
+}
